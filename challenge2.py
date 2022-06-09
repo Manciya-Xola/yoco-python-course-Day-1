@@ -2,7 +2,6 @@ from unittest import result
 import requests
 from datetime import datetime
 from pprint import pprint
-APP_KEY = 'eaeda91363msh2c47905a2399d98p13f800jsndfddc4f51231'
 url = 'https://community-open-weather-map.p.rapidapi.com/weather'
 
 def weather_data(city):
